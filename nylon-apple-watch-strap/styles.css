@@ -108,6 +108,23 @@ h2 { margin: 0 0 18px; font-size: clamp(30px, 4vw, 52px); line-height: 1.08; tex
   border: 1px solid var(--line);
   background: #fff;
 }
+.media-frame {
+  position: relative;
+  margin-top: 16px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.media-frame .tile-media { margin-top: 0; }
+.price-corner {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  width: min(52%, 190px);
+  border-radius: 8px;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, .24);
+  border: 1px solid rgba(24, 24, 24, .12);
+  background: #fff;
+}
 
 .content-flow {
   display: grid;
